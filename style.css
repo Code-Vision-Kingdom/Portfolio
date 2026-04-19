@@ -125,6 +125,24 @@ span{
     order: 1;
 }
 
+/* */
+.home-img-linux img{
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.home-img-linux{
+    order: 2;
+}
+
+.home-content{
+    order: 1;
+}
+
 /* SOCIAL ICONS */
 .social-icons a{
     display: inline-flex;
@@ -336,6 +354,11 @@ span{
     }
 
     .home-img-php img{
+        max-width: 250px;
+        margin-top: 10rem;
+    }
+
+    .home-img-linux img{
         max-width: 250px;
         margin-top: 10rem;
     }
