@@ -143,6 +143,25 @@ span{
     order: 1;
 }
 
+/* */
+.home-img-script img{
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.home-img-script{
+    order: 2;
+}
+
+.home-content{
+    order: 1;
+}
+
+
 /* SOCIAL ICONS */
 .social-icons a{
     display: inline-flex;
